@@ -10,7 +10,7 @@ export default function Home() {
 
         <p>
         DriveSafe helps drivers understand traffic laws,
-        penalties and safe driving practices.
+        penalties and safe driving practices! Made by ProjectLemon, docs build by docusaurus.
         </p>
 
         <a href="/docs/penalties">
