@@ -30,7 +30,7 @@ const config = {
           routeBasePath: '/', // docs la root
         },
         blog: false,
-        pages: false,
+        pages: true,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
