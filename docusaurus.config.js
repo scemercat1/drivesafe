@@ -21,9 +21,9 @@ const config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: 'docs', 
-        },
+  sidebarPath: require.resolve('./sidebars.js'),
+  // don't set routeBasePath here
+},
         blog: false,
         pages: true,
         theme: {
