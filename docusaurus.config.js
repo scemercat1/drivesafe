@@ -11,6 +11,8 @@ const config = {
   organizationName: 'drivesafe',
   projectName: 'drivesafe-docs',
 
+  onBrokenLinks: 'warn',
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -21,9 +23,8 @@ const config = {
       'classic',
       {
         docs: {
-  sidebarPath: require.resolve('./sidebars.js'),
-  // don't set routeBasePath here
-},
+          sidebarPath: './sidebars.js',
+        },
         blog: null,
         pages: {},
         theme: {
@@ -61,10 +62,10 @@ const config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Penalties', to: '/penalties' },
-            { label: 'Traffic Laws', to: '/traffic-laws' },
-            { label: 'Safe Driving', to: '/safe-driving' },
-            { label: 'FAQ', to: '/faq' },
+            { label: 'Penalties', to: '/docs/penalties' },
+            { label: 'Traffic Laws', to: '/docs/traffic-laws' },
+            { label: 'Safe Driving', to: '/docs/safe-driving' },
+            { label: 'FAQ', to: '/docs/faq' },
           ],
         },
       ],
