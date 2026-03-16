@@ -1,7 +1,7 @@
 module.exports = {
   title: 'DriveSafe',
   tagline: 'Drive smarter. Drive safer.',
-  url: 'https://drivesafe.projectlemon.net',
+  url: 'drivesafe.projectlemon.net',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
 
