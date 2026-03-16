@@ -14,7 +14,11 @@ const config = {
   projectName: 'drivesafe-docs',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+markdown: {
+  hooks: {
+    onBrokenLinks: 'warn',
+  },
+},
 
   i18n: {
     defaultLocale: 'en',
